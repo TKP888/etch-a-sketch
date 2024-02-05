@@ -8,7 +8,7 @@ let currentColor = "black";
 
 function createGrid(rows, cols) {
   let fragment = document.createDocumentFragment(); // Create a document fragment
-
+ 
   for (let i = 0; i < (rows * cols); i++) {
     let cell = document.createElement("div");
     cell.classList.add('grid-item');
