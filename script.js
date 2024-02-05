@@ -35,6 +35,7 @@ function createGrid(rows, cols) {
 
 
 
+
   function erase(){
     currentColor = "white";
       };
@@ -96,7 +97,7 @@ let gridSize = prompt("Choose a grid size between 1 and 100");
 
 
   // function changeColor() {
-  //   currentColor = "pink";
+  //   currentColor = "blue";
   // }
 
 changeGrid.onclick = function() {
